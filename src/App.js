@@ -3,7 +3,7 @@ import ToDOList from "./ToDoList";
 
 function App() {
   return (
-    <div className="App   bg-blue-300 min-h-screen ">
+    <div className="App  min-w-[320px]  bg-blue-300 min-h-screen ">
       <ToDOList />
     </div>
   );

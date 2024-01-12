@@ -45,9 +45,9 @@ export default function ToDOList() {
     }
   };
   return (
-    <div>
-      <div className="flex justify-center items-center">
-        <div className="grid grid-cols-6 gap-4  m-2 p-2 w-1/2 border-blue-100 border-4 p-8">
+    <div className="min-w-[320px]">
+      <div className="flex justify-center items-center  ">
+        <div className="grid grid-cols-6 gap-4  m-2 p-2 w-1/2 border-blue-100 border-4 p-8 min-w-[320px]">
           <div className="col-span-6 font-bold text-lg text-black dark:text-white ">
             To Do List
           </div>
@@ -70,15 +70,15 @@ export default function ToDOList() {
         <br></br>
         <br></br>
       </div>
-      <div className=" flex justify-center">
+      <div className=" flex justify-center min-w-[320px]">
         <div className="w-1/2 ">
           {toDos.map((toDo, toDoIndex) => (
-            <div className="grid grid-cols-6" key={toDoIndex}>
-              <p className="break-words rounded bg-blue-200 m-2 p-2 col-span-5">
+            <div className="grid grid-cols-6 " key={toDoIndex}>
+              <p className="break-words rounded bg-blue-200 m-2 p-2 col-span-5 min-w-[20px]">
                 {toDo}
               </p>
               <button
-                className="flex justify-center items-center rounded bg-blue-200 m-2 p-2 col-span-1 bg-blue-500 focus:ring-blue-600 focus:border-blue-500 hover:bg-blue-600 block "
+                className="flex min-w-[40px] justify-center items-center rounded bg-blue-200 m-2 p-2 col-span-1 bg-blue-500 focus:ring-blue-600 focus:border-blue-500 hover:bg-blue-600 block "
                 onClick={() => onRemoveTodo(toDoIndex)}
               >
                 <svg
