@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/To-Do-List-Using-Reducer/static/css/main.7bca925f.css",
-    "main.js": "/To-Do-List-Using-Reducer/static/js/main.9d4ffd5a.js",
-    "static/js/787.d1061748.chunk.js": "/To-Do-List-Using-Reducer/static/js/787.d1061748.chunk.js",
-    "index.html": "/To-Do-List-Using-Reducer/index.html",
-    "main.7bca925f.css.map": "/To-Do-List-Using-Reducer/static/css/main.7bca925f.css.map",
-    "main.9d4ffd5a.js.map": "/To-Do-List-Using-Reducer/static/js/main.9d4ffd5a.js.map",
-    "787.d1061748.chunk.js.map": "/To-Do-List-Using-Reducer/static/js/787.d1061748.chunk.js.map"
+    "main.css": "/to-do-list-using-reducer/static/css/main.7bca925f.css",
+    "main.js": "/to-do-list-using-reducer/static/js/main.26ac365a.js",
+    "static/js/787.d1061748.chunk.js": "/to-do-list-using-reducer/static/js/787.d1061748.chunk.js",
+    "index.html": "/to-do-list-using-reducer/index.html",
+    "main.7bca925f.css.map": "/to-do-list-using-reducer/static/css/main.7bca925f.css.map",
+    "main.26ac365a.js.map": "/to-do-list-using-reducer/static/js/main.26ac365a.js.map",
+    "787.d1061748.chunk.js.map": "/to-do-list-using-reducer/static/js/787.d1061748.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bca925f.css",
-    "static/js/main.9d4ffd5a.js"
+    "static/js/main.26ac365a.js"
   ]
 }
